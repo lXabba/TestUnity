@@ -1,0 +1,382 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ru' Physical Memory: 16200 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\downloads\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/project/TestUnity/New Unity Project
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+52115
+Successfully changed project path to: D:/project/TestUnity/New Unity Project
+D:/project/TestUnity/New Unity Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8856] Host "[IP] 192.168.2.69 [Port] 0 [Flags] 2 [Guid] 2030023392 [EditorId] 2030023392 [Version] 1048832 [Id] WindowsEditor(7,Elena) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8856] Host "[IP] 192.168.2.69 [Port] 0 [Flags] 2 [Guid] 2030023392 [EditorId] 2030023392 [Version] 1048832 [Id] WindowsEditor(7,Elena) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 62.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path D:/downloads/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/project/TestUnity/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   26.21.14.4223
+Initialize mono
+Mono path[0] = 'D:/downloads/Editor/Data/Managed'
+Mono path[1] = 'D:/downloads/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/downloads/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/downloads/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001295 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.515 seconds
+Domain Reload Profiling:
+	ReloadAssembly (516ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (371ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (91ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (215ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.746 seconds
+Domain Reload Profiling:
+	ReloadAssembly (747ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (567ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2918 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (56.3 KB). Loaded Objects now: 3398.
+Memory consumption went from 116.0 MB to 115.9 MB.
+Total: 2.474200 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.168300 ms MarkObjects: 2.007400 ms  DeleteObjects: 0.077300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3171.375438 seconds.
+  path: Assets/WoodsLifestyle/Models/Boards
+  artifactKey: Guid(aafbc0490a5e9ab4c84694f32c2b7f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Boards using Guid(aafbc0490a5e9ab4c84694f32c2b7f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99bca47b614736106f19f4cab439613') in 0.014982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036016 seconds.
+  path: Assets/WoodsLifestyle/Models/Boards/Board_01_a.fbx
+  artifactKey: Guid(e712748253b139349b2a6e8544f23013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Boards/Board_01_a.fbx using Guid(e712748253b139349b2a6e8544f23013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d8801b3ee7590d0b17e1e66b7c9c1c') in 0.141185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/WoodsLifestyle/Models/Boards/Plank_01_a.fbx
+  artifactKey: Guid(c316da87e22897c4ab2f4f244f711917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Boards/Plank_01_a.fbx using Guid(c316da87e22897c4ab2f4f244f711917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70e3a97e5ca0b97e1564c797c052fa2') in 0.021669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/WoodsLifestyle/Models/Boards/Plank_03_a002.fbx
+  artifactKey: Guid(c72ad18480a15f84ea5e0fad0f1ca240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Boards/Plank_03_a002.fbx using Guid(c72ad18480a15f84ea5e0fad0f1ca240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e4a5ce924776fe6ff4c03c5dbd196f') in 0.022723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/WoodsLifestyle/Models/Boards/Palnk_02_a002.fbx
+  artifactKey: Guid(60e913bb49bf6c649aad83aad37bafbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Boards/Palnk_02_a002.fbx using Guid(60e913bb49bf6c649aad83aad37bafbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34925fcf9f574508a5eff1d003fff5c') in 0.019556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.984821 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences
+  artifactKey: Guid(c1e0be6ef14817d4c89f74f57f98e1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences using Guid(c1e0be6ef14817d4c89f74f57f98e1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14922b56a5b2fd99606e781a6d9b13b8') in 0.008039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041916 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Closed_01.FBX
+  artifactKey: Guid(2994ed964ded40b488a89138b547c863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Closed_01.FBX using Guid(2994ed964ded40b488a89138b547c863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdc186f255049716a2808dfb225c503') in 0.021489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Open_07.FBX
+  artifactKey: Guid(c44786528dd3de842a6650493e7bf997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Open_07.FBX using Guid(c44786528dd3de842a6650493e7bf997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea03c9cf98e54d3e6e7254c7ad7a7d89') in 0.017948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Open_06.FBX
+  artifactKey: Guid(ca9bbfba286196a4bb58f2009ec7afaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Open_06.FBX using Guid(ca9bbfba286196a4bb58f2009ec7afaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcab5770d1101d3d700755e5215ed190') in 0.023779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Full_06.FBX
+  artifactKey: Guid(fcdd02a68b89e0c4d84559fed7adb2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Full_06.FBX using Guid(fcdd02a68b89e0c4d84559fed7adb2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c272e1c43c4f6cee562da50ddc501b') in 0.019911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Open_04.FBX
+  artifactKey: Guid(686c0c236f8444641bfb20b25da38e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Open_04.FBX using Guid(686c0c236f8444641bfb20b25da38e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343b82984d2b618db3a9b4e2dc6785dc') in 0.023351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Closed_04.FBX
+  artifactKey: Guid(84f002e721258ca409b2e6e5ca733444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Closed_04.FBX using Guid(84f002e721258ca409b2e6e5ca733444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef087f29b2eb1733e7a295acc9dbd8a2') in 0.022805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Open_08.FBX
+  artifactKey: Guid(632b82bba31465a4e986fcffab1228b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Open_08.FBX using Guid(632b82bba31465a4e986fcffab1228b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8f35aeb626225e8a88fde240a9de31') in 0.017941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Full_07.FBX
+  artifactKey: Guid(9530fca49e37f9d409d11e24d7f87d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Full_07.FBX using Guid(9530fca49e37f9d409d11e24d7f87d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51966e10cf9ab1186578d5ab43a5f89f') in 0.020513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Closed_05.FBX
+  artifactKey: Guid(9569555fb5795e14c8ef63b952ccb08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Closed_05.FBX using Guid(9569555fb5795e14c8ef63b952ccb08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01a6f7d1dfe9f8427ec6d1c6debdb33') in 0.022278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Closed_07.FBX
+  artifactKey: Guid(f0c368b0deb34294eac1f94c7a6a39a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Closed_07.FBX using Guid(f0c368b0deb34294eac1f94c7a6a39a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3187dcc8421eda34ef21f359b6c73de9') in 0.017647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.941668 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Materials
+  artifactKey: Guid(bafb479da9ca4924d857341e4389c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Materials using Guid(bafb479da9ca4924d857341e4389c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a64ab9410410a56fd11ead896307d9') in 0.007747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042718 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Materials/No Name.mat
+  artifactKey: Guid(e7b3dc575b3bcef4d8e3e1ec690d9c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Materials/No Name.mat using Guid(e7b3dc575b3bcef4d8e3e1ec690d9c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6ac9435770a8b7c35ba63945b4566a') in 0.219754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 612.083579 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Closed_01.FBX
+  artifactKey: Guid(2994ed964ded40b488a89138b547c863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Closed_01.FBX using Guid(2994ed964ded40b488a89138b547c863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62a7865afaf85f2ad19cecd35c60d52') in 0.019653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Open_07.FBX
+  artifactKey: Guid(c44786528dd3de842a6650493e7bf997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Open_07.FBX using Guid(c44786528dd3de842a6650493e7bf997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfef68240ca2a01b94fff2e20745f6be') in 0.019767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Open_06.FBX
+  artifactKey: Guid(ca9bbfba286196a4bb58f2009ec7afaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Open_06.FBX using Guid(ca9bbfba286196a4bb58f2009ec7afaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe3b8dd181d331d37f19e1a05a5b99e') in 0.019497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Full_06.FBX
+  artifactKey: Guid(fcdd02a68b89e0c4d84559fed7adb2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Full_06.FBX using Guid(fcdd02a68b89e0c4d84559fed7adb2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fbc5025a71f8f648d04789eaf366a1') in 0.016238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Open_04.FBX
+  artifactKey: Guid(686c0c236f8444641bfb20b25da38e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Open_04.FBX using Guid(686c0c236f8444641bfb20b25da38e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672ba6a36a8f37ad80ea4bc042580c5d') in 0.014216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Closed_04.FBX
+  artifactKey: Guid(84f002e721258ca409b2e6e5ca733444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Closed_04.FBX using Guid(84f002e721258ca409b2e6e5ca733444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be3728be275eca8a3bc8ed5707d3dd2') in 0.018505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Full_01.FBX
+  artifactKey: Guid(cee51a97e505ad64abd525183f373cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Full_01.FBX using Guid(cee51a97e505ad64abd525183f373cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51afa4f350d7e494db050f233458af4') in 0.012240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Open_08.FBX
+  artifactKey: Guid(632b82bba31465a4e986fcffab1228b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Open_08.FBX using Guid(632b82bba31465a4e986fcffab1228b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b33b96a3422fe646f3d49b768e4b69') in 0.015453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Full_04.FBX
+  artifactKey: Guid(4162ca5226f3eb440a44fe436e0e17d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Full_04.FBX using Guid(4162ca5226f3eb440a44fe436e0e17d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5670f95ffd6fcf86f829ff4779b0cf1') in 0.011126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Closed_08.FBX
+  artifactKey: Guid(f01f8c7a7ce3d3540bcd89366f65225b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Closed_08.FBX using Guid(f01f8c7a7ce3d3540bcd89366f65225b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8a09cacc033ee3c906281d72c37d56') in 0.010680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Closed_06.FBX
+  artifactKey: Guid(eff2ff8331b711943a56384beb27bc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Closed_06.FBX using Guid(eff2ff8331b711943a56384beb27bc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f16871d2096078ad7a5ffe4643188e8') in 0.020285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/WoodsLifestyle/Models/Fences/Fence_Closed_07.FBX
+  artifactKey: Guid(f0c368b0deb34294eac1f94c7a6a39a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Fences/Fence_Closed_07.FBX using Guid(f0c368b0deb34294eac1f94c7a6a39a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f56e303339533f584c704192f9ac715') in 0.010911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.491145 seconds.
+  path: Assets/WoodsLifestyle/Models/Cabins/Floors/Floor_01_a.fbx
+  artifactKey: Guid(9afcc06a7f7bc7e43b66bd28f58639d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Cabins/Floors/Floor_01_a.fbx using Guid(9afcc06a7f7bc7e43b66bd28f58639d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdaef4a6efcb25c3173835a53689c67f') in 0.019516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/WoodsLifestyle/Models/Cabins/Floors/Platform_01.fbx
+  artifactKey: Guid(2475800084d1a6c4a9a92017599bf06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Cabins/Floors/Platform_01.fbx using Guid(2475800084d1a6c4a9a92017599bf06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e13547e68d7bc195404ff10ab333e66') in 0.019992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/WoodsLifestyle/Models/Cabins/Floors/Floor_01_c.fbx
+  artifactKey: Guid(28555845e8f335e4daa57a5e4a9fe897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Cabins/Floors/Floor_01_c.fbx using Guid(28555845e8f335e4daa57a5e4a9fe897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c5cdd2296377ae29a7da298326e91a') in 0.025073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.115347 seconds.
+  path: Assets/WoodsLifestyle/Models/Logs_Wood/FireWood_02.fbx
+  artifactKey: Guid(9372c40f313d201479aedce65bcf2332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Logs_Wood/FireWood_02.fbx using Guid(9372c40f313d201479aedce65bcf2332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301d89132905d64ae95791e347792bcf') in 0.015515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/WoodsLifestyle/Models/Logs_Wood/LogHeap_01_b.fbx
+  artifactKey: Guid(b69b231b6ce3a37418c87345ba8cee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Logs_Wood/LogHeap_01_b.fbx using Guid(b69b231b6ce3a37418c87345ba8cee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175d8fddc701a244b8929b4071b92d96') in 0.018174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/WoodsLifestyle/Models/Logs_Wood/LogHeap_01_a.fbx
+  artifactKey: Guid(76b05828dbaaacc48bc2fdc16213fb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodsLifestyle/Models/Logs_Wood/LogHeap_01_a.fbx using Guid(76b05828dbaaacc48bc2fdc16213fb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd475543f3dabe8b334583f501afc05d6') in 0.022444 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
